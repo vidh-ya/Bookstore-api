@@ -12,11 +12,15 @@ Delete a book
 Pydantic validation
 FastAPI Swagger UI documentation
 RESTful API architecture
+
+
 🛠️ Technologies Used
 Python 3
 FastAPI
 Pydantic
 Uvicorn
+
+
 📂 Project Structure
 BookStoreAPI/
 │
@@ -42,19 +46,31 @@ pip install fastapi uvicorn pydantic
 Or
 
 pip install -r requirements.txt
+
+
+
 ▶️ Running the Application
+
+
 uvicorn main:app --reload
 The server will start at:
 
 http://127.0.0.1:8000
+
+
 📖 API Documentation
+
+
 Swagger UI:
 
 http://127.0.0.1:8000/docs
 ReDoc:
 
 http://127.0.0.1:8000/redoc
+
+
 📌 API Endpoints
+
 Get All Books
 GET /books
 Create a Book
@@ -87,6 +103,8 @@ DELETE /books/{book_id}
 Example:
 
 DELETE /books/1
+
+
 ✅ Sample Response
 {
   "id": 1,
@@ -94,6 +112,8 @@ DELETE /books/1
   "author": "Guido van Rossum",
   "price": 799.99
 }
+
+
 🎯 Learning Outcomes
 Through this project, the following concepts were learned:
 
@@ -103,6 +123,7 @@ CRUD operations
 Pydantic validation
 API documentation with Swagger
 Python backend development
+
 👩‍💻 Author
 Vidhyasri
 
